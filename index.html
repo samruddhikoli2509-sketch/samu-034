@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samruddhi Koli - Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #b3e5fc, #e1bee7);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #4a148c;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: -10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 10px;
+            backdrop-filter: blur(8px);
+        }
+
+        nav a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #4a148c;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #6a1b9a;
+        }
+
+        .skills-list, .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: #f3e5f5;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Samruddhi Koli</h1>
+        <p>1st Year Computer Engineering Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Samruddhi Koli, a passionate first-year Computer Engineering student. I love learning new technologies, building creative projects, and improving my coding skills every day. This portfolio highlights my interests and growing expertise.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="card">HTML5</div>
+            <div class="card">CSS3</div>
+            <div class="card">C Programming</div>
+            <div class="card">Java Basics</div>
+            <div class="card">Problem Solving</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="card">Simple Calculator (HTML/CSS/JS)</div>
+            <div class="card">Portfolio Website</div>
+            <div class="card">C Programs Mini Collection</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <strong>samruddhi@example.com</strong></p>
+        <p>Instagram: <strong>@samruddhi_k</strong></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Samruddhi Koli. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
